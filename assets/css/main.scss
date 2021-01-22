@@ -1,0 +1,17 @@
+---
+---
+
+@import "main";
+@import "variables";
+@import "bootstrap/scss/bootstrap";
+
+$nbit-primarycolor:  #da1500;
+
+.content {
+  font-size: $custom-font-size;
+}
+
+
+.bg-nbit {
+  background: $nbit-primarycolor;
+}
