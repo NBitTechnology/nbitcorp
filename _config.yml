@@ -1,12 +1,12 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/nbitcorp" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+title: "NBit Technology Sdn. Bhd." # the name of your site, e.g. ACME Corp.
 destination: "/docs"
 plugins:
-  - github-pages
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+ - github-pages
+ - jekyll-feed
+ - jekyll-sitemap
+ - jekyll-seo-tag
 sass:
     load_paths:
         - _sass
