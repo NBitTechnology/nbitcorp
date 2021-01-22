@@ -1,1 +1,1 @@
-Sitemap: http://0.0.0.0:46001/sitemap.xml
+Sitemap: /sitemap.xml
