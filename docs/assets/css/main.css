@@ -7847,6 +7847,9 @@ a.nav-link {
     .dropdown-menu.show > .navbar-item-line {
       display: none; } }
 
+button.navbar-toggler {
+  border: none !important; }
+
 .navbar-item-line {
   width: 85%;
   height: 0.5px;
@@ -7855,7 +7858,12 @@ a.nav-link {
 
 a.dropdown-item {
   padding: 9px 1.5rem !important;
-  font-size: 12px !important; }
+  font-size: 12px !important;
+  background: transparent !important; }
+  a.dropdown-item:hover, a.dropdown-item:focus, a.dropdown-item:active {
+    padding: 9px 1.5rem !important;
+    font-size: 12px !important;
+    background: transparent !important; }
 
 .icon-logo {
   width: 48px;
@@ -8000,8 +8008,7 @@ li.list-group-item.list-group-item-footer {
   height: 110px; }
 
 .footer-link {
-  color: white;
-  font-size: 12px; }
+  color: white; }
   .footer-link:hover, .footer-link:focus, .footer-link:active {
     color: white; }
 

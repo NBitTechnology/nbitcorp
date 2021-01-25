@@ -44,11 +44,11 @@ $jumbotronImage2: '/assets/image/home/home-jumbotron-4/background.jpg';
   .jumbotron-home-0-button-1 {
     padding-top: 40px;
     @include media-breakpoint-down(xs) { 
-     padding-left: 28vw;
+     padding-left: 22vw;
      width: 161px;
     }
     @include media-breakpoint-down(sm) { 
-      padding-left: 28vw;
+      padding-left: 22vw;
       width: 161px;
     }
     @include media-breakpoint-up(md) {

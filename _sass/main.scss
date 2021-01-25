@@ -79,6 +79,11 @@ a.nav-link {
     }
   }
 }
+
+button.navbar-toggler {
+  border: none !important;
+}
+
 .navbar-item-line {
   width: 85%;
   height: 0.5px;
@@ -88,6 +93,12 @@ a.nav-link {
 a.dropdown-item {
   padding: 9px 1.5rem !important;
   font-size: 12px !important;
+  background: transparent !important;
+  &:hover,&:focus,&:active {
+    padding: 9px 1.5rem !important;
+    font-size: 12px !important;
+    background: transparent !important;
+  }
 }
 .icon-logo {
   width: 48px;
@@ -252,7 +263,6 @@ li.list-group-item.list-group-item-footer {
 
 .footer-link {
   color: white;
-  font-size: 12px;
   &:hover,&:focus,&:active {
     color: white;
   }
