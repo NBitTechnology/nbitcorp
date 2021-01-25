@@ -7848,7 +7848,11 @@ a.nav-link {
       display: none; } }
 
 button.navbar-toggler {
-  border: none !important; }
+  border: none !important;
+  outline: none !important; }
+  button.navbar-toggler:hover, button.navbar-toggler:focus, button.navbar-toggler:active {
+    border: none !important;
+    outline: none !important; }
 
 .navbar-item-line {
   width: 85%;

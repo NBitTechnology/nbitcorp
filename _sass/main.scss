@@ -82,6 +82,11 @@ a.nav-link {
 
 button.navbar-toggler {
   border: none !important;
+  outline: none !important;
+  &:hover,&:focus,&:active {
+    border: none !important;
+    outline: none !important;
+  }
 }
 
 .navbar-item-line {
